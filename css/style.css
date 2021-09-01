@@ -10,8 +10,18 @@ nav{
 .navbar-collapse {
     transform: translate(-14%, 0);
 }
+
 .navbar-brand{
     transform: translate(140%, 0);
+}
+@media (max-width: 425px) {
+    .navbar-collapse {
+        transform: translate(0, 0);
+    }
+    .navbar-brand{
+        transform: translate(0, 0);
+    }
+    
 }
 header{
     min-height: 100vh;
@@ -90,9 +100,10 @@ text-align: center;
     margin-bottom: 20px;
     background-color: #ffffff;
 }
-.card-reserv{
-    width: 24%;
+.cadrs{
+    width: 90% ;
 }
+
 .card{
     box-shadow: -3px 3px 20px -1px rgba(0,0,0,0.75);
 }
